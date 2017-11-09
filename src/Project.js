@@ -8,6 +8,9 @@ class Project extends Component {
     this.state = {open: false};
 
     this.toggle = this.toggle.bind(this);
+
+    var YAML = require('yamljs');
+    this.data = YAML.load('data/test.yml');
   }
 
   toggle() {
@@ -20,7 +23,7 @@ class Project extends Component {
     return (
       <div className={"Project"+(this.state.open?" Project-toggled":"")} onClick={this.toggle}>
         <h2 className="Project-header">Game Title</h2>
-        <p className="Project-description">Game description is very good.</p>
+        <p className="Project-description">Game description is very good. {this.data.answer}</p>
       </div>
     );
   }
