@@ -5,12 +5,12 @@ import './Project.css';
 class Project extends Component {
   constructor(props) {
     super(props);
-    this.state = {open: false};
 
     this.toggle = this.toggle.bind(this);
 
     var YAML = require('yamljs');
-    this.data = YAML.load('data/test.yml');
+    this.state = YAML.load('data/projects/'+props.name+'.yml');
+    this.state.open = false;
   }
 
   toggle() {
@@ -22,8 +22,8 @@ class Project extends Component {
   render() {
     return (
       <div className={"Project"+(this.state.open?" Project-toggled":"")} onClick={this.toggle}>
-        <h2 className="Project-header">Game Title</h2>
-        <p className="Project-description">Game description is very good. {this.data.answer}</p>
+        <h2 className="Project-header">{this.state.name}</h2>
+        <p className="Project-description">{this.state.open ? this.state.desc : this.state.short}</p>
       </div>
     );
   }
