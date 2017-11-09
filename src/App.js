@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Project from './Project.js';
 
@@ -15,10 +14,12 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Rasmus Dyhr Larsen</h1>
         </header>
         {this.data.games.map(item => <Project name={item} />)}
+        <footer>
+          <p>Copyright {(new Date()).getFullYear()} © Rasmus Dyhr Larsen</p>
+        </footer>
       </div>
     );
   }
