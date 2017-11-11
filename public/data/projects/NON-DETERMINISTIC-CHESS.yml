@@ -1,0 +1,22 @@
+---
+
+name: Non-deterministic chess
+date: Mon, 03 Oct 2016 10:55:49 +0000
+role:
+- Programmer
+tags:
+- game-design-2016
+- games
+- multiplayer
+
+links: []
+short: >
+  Like chess, but with a chance to miss your moves
+desc: "Like chess, but with a chance to miss your moves.\n\nRules:\n<ul>\n\t<li>Whenever you move, you roll two
+dice to see if you miss on either axis.\n<ul>\n \t<li>If you hit the extremes
+(1 and 6 on a 6 sided die) you move one tile on that axis.</li>\n \t<li>1 is your\_
+left and towards you, and 6 is your right and away from you.</li>\n</ul>\n</li>\n
+\t<li>Pawns use a six sided die, King uses a 10 sided die, and the rest use an
+8 sided die.</li>\n \t<li>The king and queen cannot be killed by a miss.</li>\n
+\t<li>Pawns can only kill, when doing their normal killing move.</li>\n \t<li>Falling
+off the edge kills you. King and Queen excluded.</li>\n</ul>"

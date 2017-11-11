@@ -1,0 +1,24 @@
+---
+
+name: Planetarium
+date: Sun, 24 Aug 2014 11:00:29 +0000
+role:
+- Programmer
+tags:
+- 3d
+- game
+- game-jam
+- games
+- prototype
+- singleplayer
+
+links:
+- name: Ludum Dare Page
+  url: http://ludumdare.com/compo/ludum-dare-30/?action=preview&amp;uid=35450\
+short: >
+  Planet jumping in a hostile environment
+desc: "Planet jumping in a hostile environment. Time is
+  against you and planets are collapsing with you on it, if you don't make it off.
+  You have to collect gems with specific color codes to activate teleporters to
+  other planets. Pickup ammo and health to stay alive.\n\nMade for Ludum
+  Dare 30."

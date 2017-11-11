@@ -1,0 +1,21 @@
+---
+
+name: Villain Inc.
+date: Sun, 16 Dec 2012 11:00:00 +0000
+role:
+- Programmer
+tags:
+- 2d
+- game
+- game-jam
+- games
+- singleplayer
+
+links:
+- name: Play
+  url: http://www.newgrounds.com/dump/item/c8aee8d0e96dd4c213d90558cd156030
+short: >
+  Become evil. Get coffee.
+desc: "Become evil. Get coffee. Platformer brawler where
+  you fight super cat. It's a game jam game where I focused on the art, so I didn't
+  have time for much content or mechanics.\n\nMade for Ludum Dare 25"

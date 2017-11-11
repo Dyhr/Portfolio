@@ -1,0 +1,128 @@
+---
+
+name: Basement of the Spirits
+date: Mon, 10 Oct 2016 08:29:36 +0000
+role:
+- Programmer
+tags:
+- game
+- game-design-2016
+- multiplayer
+- prototype
+- real-life
+links: []
+short: >
+  Asymmetric survival board game about ghosts and stuff
+desc: "\n<h1>Pitch</h1>\nIn B<i>asement of The Spirits</i>, players
+  control spirits that possess members of the Robertson family. As the Robertsons
+  is a family of experienced ghost hunters, it is difficult for the players to control
+  the possessed family members. Players have to draw cards in order to control the
+  vessels that they are currently possessing, while avoiding another spirit to possess
+  them and thereby leaving them without a vessel, vulnerable to the mysteries of
+  the basement.\n<h1>Narrative</h1>\nThe Robertson family is known for being a family
+  of explorers. They delve into any kind of stuff of occult and supernatural. Some
+  even call them ghost hunters, and spirit whisperers. The family consisting of
+  Old Father John, Mother Wanda the wonky and little Tommy tip-toe had heard of
+  a house infested by strong spirits. There were many urban legends of these spirits
+  living in the basement of the house. Legends of how they were murderous spirits
+  longing for blood and mayhem. Stories of people entering the basement and being
+  possessed to never return to the land of the light again. John, Wanda and Tommy
+  were not afraid though. They was a happy family and thought all spirits were misunderstood,
+  and just wanted to live in coexistence with humans. But as they all said, if shit
+  really went down, Father John had his old rifle, little Tommy was quick and could
+  just run away and Mother Wanda was so hideously ugly that no one would ever possess
+  her.\nTherefore when entering The Basement of The Spirits, as it was known for,
+  they all thought themselves very safe, but oh boy are they wrong!\n\n&nbsp;\n\n
+  The Robertsons has decided to enter <i>The Basement of The Spirits</i>. They all
+  think they are very safe, but oh boy are they wrong!\n<h1>Rules:</h1>\n<h2><span
+  style=\"font-weight: 400;\">Content:</span></h2>\n<ul>\n \t<li style=\"font-weight:
+  400;\"><span style=\"font-weight: 400;\">5x5 grid gameboard</span></li>\n \t<li
+  style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">3 body character</span></li>\n
+  \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">1 ghost character</span></li>\n
+  \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">12 fuel blocks</span></li>\n
+  \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">~50 Direction
+  Cards</span></li>\n</ul>\n<h2>Board setup</h2>\n<span style=\"font-weight: 400;\"
+  >The board is setup as below.</span>\n<ol>\n \t<li style=\"font-weight: 400;\"><span
+  style=\"font-weight: 400;\">Place the fuel blocks as seen on the image</span></li>\n
+  \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Place the
+  body characters on three of the four corners of the basement</span></li>\n \t
+  <li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Place the ghost
+  in the middle of the basement</span></li>\n</ol>\n<h2>Goal of the game</h2>\n
+  <ul>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Each
+  player are controlling a spirit that is trying to escape the basement in a human
+  body.</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight:
+  400;\">There are only three body vessels but four spirits, the spirit without
+  a vessel wander the basement as a ghost.</span></li>\n \t<li style=\"font-weight:
+  400;\"><span style=\"font-weight: 400;\">The game ends when the spirits, that
+  are controlling a vessel, have activated two of the generators and turns on the
+  lights of the basement and thereby the ghost will vanish.</span></li>\n</ul>\n
+  <h2>Direction cards</h2>\n<span style=\"font-weight: 400;\">Each person starts with
+  5 direction cards</span>\n\n<span style=\"font-weight: 400;\">The direction cards
+  all have a colored diamond on them (see image xx).</span>\n\n&nbsp;\n\n<span style=\"
+  font-weight: 400;\">These colored diamonds correspond to the colored arrows on the
+  game board.</span>\n\n<span style=\"font-weight: 400;\">In the case of multiple
+  colored diamonds on one card the player decides in which direction to move, when
+  the card is revealed.</span>\n\n<span style=\"font-weight: 400;\">Once per round
+  a player can choose to exchange 3 direction card of the same color for 3 new ones.</span>\n
+  <h2>Vessel movement</h2>\n<span style=\"font-weight: 400;\">Since the body vessels
+  is newly possessed by the spirits, it takes some time from when the spirits chooses
+  a movement to it actually happening.</span>\n<ul>\n \t<li style=\"font-weight:
+  400;\"><span style=\"font-weight: 400;\">All players start the game by placing
+  three direction cards face down.</span></li>\n \t<li style=\"font-weight: 400;\"
+  ><span style=\"font-weight: 400;\">All players simultaneously reveal their chosen
+  direction for a turn and move one square in that direction.</span></li>\n \t<li
+  style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">All players place
+  another direction card and draw a new card. All players should have 5 direction
+  cards. Then a new turn is taken and the game continues.</span></li>\n</ul>\n<span
+  style=\"font-weight: 400;\">Vessels can pick up or drop fuel after making a movement.
+  If four fuel is dropped on a generator that generator is active.</span>\n<h2>Fuel
+  management</h2>\n<span style=\"font-weight: 400;\">Fuel is picked up by the vessels
+  by being on the same field as the fuel.</span><span style=\"font-weight: 400;\"
+  >\n</span><span style=\"font-weight: 400;\">The fuel is then moved to the inventory
+  of that player. The inventory is located in front of the player, in clear view
+  of all the other players. </span>\n\n<span style=\"font-weight: 400;\">The inventory
+  can contain a maximum of four fuel at any given time. </span>\n\n<span style=\"
+  font-weight: 400;\">If two vessels land on the same field with a fuel at the same
+  time, the two players controlling the vessels decide who should have the fuel.</span>\n
+  \n<span style=\"font-weight: 400;\">INSERT IMAGE OF PLAYER PICKING UP FUEL MOVING
+  TO A GENERATOR AND DROPPING IT OFF. </span>\n\n<span style=\"font-weight: 400;\"
+  >The vessel can also drop the fuel either to fuel a generator. or to pick up new
+  direction cards.</span>\n\n<span style=\"font-weight: 400;\">New direction cards
+  can only be taken if the vessel has fuel that it can drop, and have 3 direction
+  cards of the same color.+</span>\n\n<span style=\"font-weight: 400;\">The player
+  controlling the ghost cannot pick up or drop fuel.</span>\n<h2>Ghost movement</h2>\n
+  <span style=\"font-weight: 400;\">The ghost move like the vessels by placing three
+  direction cards. </span>\n\n<span style=\"font-weight: 400;\">The ghost moves
+  immediately </span><b>after</b><span style=\"font-weight: 400;\"> the vessels
+  have made their moves.</span>\n\n<span style=\"font-weight: 400;\">The ghost is
+  allowed to turn a direction card indicating that it moves two squares in that
+  direction(see image xx), only one turned card is allowed at a time. When the turned
+  card is played then a new turned direction card can be played .</span>\n\n<span
+  style=\"font-weight: 400;\">INSERT IMAGE OF HOW IT LOOKS WHEN A CARD IS TURNED
+  AS AN EXAMPLE</span>\n\n<span style=\"font-weight: 400;\">The ghost may pass through
+  walls and may warp around the board. (If the ghost exits the left side of the
+  board it enters the right side)</span>\n\n<span style=\"font-weight: 400;\">INSERT
+  GRAPHIC OF HOW THE GHOST WARPS AROUND THE BOARD</span>\n\n<span style=\"font-weight:
+  400;\">If the ghost at any time shares the location with a another player, the
+  player\u2019s vessel is then possessed by the ghost. (If the ghost shares a location
+  with two players, the ghost may choose who to posses)</span>\n<h2>Possessing players</h2>\n
+  <ol>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">If a
+  player is possessed - the player will switch role with the ghost. The player becomes
+  the ghost and the ghost becomes the player.</span></li>\n \t<li style=\"font-weight:
+  400;\"><span style=\"font-weight: 400;\">If the player being possessed carries
+  any fuel, the player gets to place them on the board.</span></li>\n \t<li style=\"
+  font-weight: 400;\"><span style=\"font-weight: 400;\">Both the new player and ghost
+  discards their current direction cards and places new direction cards for the
+  next three turns. They do so by first discarding their chosen direction cards,
+  drawing three new cards and then placing three new cards.</span></li>\n \t<li
+  style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">The new ghost is
+  stunned and must therefore skip a turn. After the skipped turn the ghost respawns
+  at the middle of the game board.can choose a generator field to respawn at, as
+  long as there is no vessels located at that generator field.</span></li>\n</ol>\n
+  <h2>Powering on generators</h2>\n<span style=\"font-weight: 400;\">When the players
+  have placed </span><i><span style=\"font-weight: 400;\">four fuels</span></i><span
+  style=\"font-weight: 400;\"> on </span><i><span style=\"font-weight: 400;\">two
+  generators</span></i><span style=\"font-weight: 400;\"> the ghost will vanish
+  and the game ends.</span>\n\n<span style=\"font-weight: 400;\">The most </span><b>scary</b><span
+  style=\"font-weight: 400;\"> player begins as the ghost.</span>\n\n&nbsp;\n<h1></h1>\n
+  <h1></h1>"

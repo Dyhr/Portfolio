@@ -1,0 +1,35 @@
+---
+
+name: Mean Football
+date: Mon, 12 Sep 2016 12:35:43 +0000
+role:
+- Programmer
+tags:
+- design
+- game
+- game-design-2016
+- multiplayer
+- prototype
+- real-life
+
+links: []
+short: >
+  Cooperation between opponents
+desc: "Cooperation between opponents\n\nBasic Rules:\n<ul>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight:
+  400;\">All vs all</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"
+  font-weight: 400;\">2 teams of 3 players</span></li>\n \t<li style=\"font-weight:
+  400;\"><span style=\"font-weight: 400;\">Scorer gets 3 points, team members get
+  1 point</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight:
+  400;\">A player is allowed to play against her own teammates</span></li>\n \t
+  <li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">A player can only
+  score in the goal of the other team</span></li>\n \t<li style=\"font-weight: 400;\"
+  ><span style=\"font-weight: 400;\">A match ends when either 5 goals have been scored
+  or after 5 minutes</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"
+  font-weight: 400;\">If you commit a serious foul you are out for the rest of the
+  match. (Potential point deduction)</span></li>\n \t<li style=\"font-weight: 400;\"
+  ><span style=\"font-weight: 400;\">Goals turned around</span></li>\n \t<li style=\"
+  font-weight: 400;\"><span style=\"font-weight: 400;\">Scoreboard (updated with every
+  goal) to keep track of points</span></li>\n</ul>\n&nbsp;\n\nPrototype 1 for the
+  course Game Design at the IT University of Copenhagen\n\nIllustration:\n\n<img
+  class=\"alignnone size-medium wp-image-190\" src=\"http://rasmusdyhr.me/wp-content/uploads/2016/09/afootball-1-300x203.png\"
+  alt=\"afootball\" width=\"300\" height=\"203\" />"

@@ -1,0 +1,24 @@
+---
+
+name: NEAT-Man
+date: Tue, 17 May 2016 11:00:58 +0000
+role:
+- Programmer
+tags:
+- neural-networks
+- prototype
+- software
+
+links:
+- name: GitHub
+  url: https://github.com/Dyhr/GAER-Spring2016-NEATman\
+short: >
+  An artificial neural network that plays Pacman
+desc: "An artificial neural network that plays Pacman, using
+  the NEAT algorithm. Using incremental evolution decent results can be achieved
+  fairly quickly. The implementation however has memory leaks and are only able
+  to evolve for a few hundred generations on common computers.\n\nSee the Github
+  page for information on running it.\n\n&nbsp;\n\nMade for the course Artificial
+  Life and Evolutionary Robotics at the IT University of Copenhagen.\n\nGroup members:\n
+  <ul>\n \t<li>Maksymilian Marcin Koziol</li>\n \t<li>Stinus M\xF8hl Thomsen</li>\n
+  \t<li>Rasmus Dyhr Larsen</li>\n</ul>"

@@ -1,0 +1,25 @@
+---
+
+name: Evoroid
+date: Sun, 26 Aug 2012 11:00:33 +0000
+role:
+- Programmer
+tags:
+- 2d
+- game
+- game-jam
+- games
+- singleplayer
+
+links:
+- name: Play
+  url: http://www.newgrounds.com/dump/item/3351c79359d20ba513bb7f1270a00749
+short: >
+  Evolve to become the very best
+desc: "Evolve to become the very best. Like no one ever was. Not a very functional
+  game. Mostly toys around with the idea of modular player upgrades. You get random
+  upgrades after every level, depending on your performance. The idea was to have
+  more choice and bigger bosses, but it never made it in.
+
+
+  Made for Ludum Dare 24."

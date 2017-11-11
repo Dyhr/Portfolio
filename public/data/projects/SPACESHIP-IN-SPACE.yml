@@ -1,0 +1,35 @@
+---
+
+name: Spaceship in Space
+date: Mon, 29 May 2017 11:00:12 +0000
+role:
+- Game Designer
+- Programmer
+- Project Manager
+- Technical Artist
+tags:
+- 3D
+- GAME
+- SINGLEPLAYER
+
+links: []
+short: >
+  A single-player, strategy-focused space simulator with a focus on
+  resource management
+desc: "A single-player, strategy-focused space simulator with a focus on
+  resource management. You are tasked with upkeeping an old and damaged spaceship
+  by distributing power to different machines and repairing broken instruments,
+  thus being able to burn fuel, reaching the destination and completing the chosen
+  delivery job.\n\nYou will earn an income for each completed job, with which they
+  may buy items from a store, such as more fuel, repair tools, and cassette tapes.
+  In the spaceship, you are accompanied by the ship's AI, which will provide
+  the you with, not always useful, tips and information.\n\nThe core gameplay consists
+  of resource management, in the form of power distribution and management of the
+  provided equipment; batteries, air tanks and repair tools, as well as maintaining
+  the planned route by burning fuel at the correct time.\n\nThrough power distribution,
+  you will have to favor some ship function over others, as the ship will never
+  have enough power for all systems. During the game, you will be challenged by
+  different dangers, which will threaten the trip and your survival. For instance,
+  meteoroid collisions, which will result in broken instruments. You may consult
+  the AI and/or the diagnostics system, in order to gain awareness of the status
+  of the ship, which in turn will help you decide on their next move."

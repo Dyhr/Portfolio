@@ -1,0 +1,55 @@
+---
+
+name: Dynamic Playground
+date: Mon, 19 Sep 2016 09:00:03 +0000
+role:
+- Programmer
+tags:
+- design
+- game-design-2016
+- game-ish
+- prototype
+- real-life
+
+link: []
+short: >
+  Grid of rotating platforms with challenges
+desc: "Grid of rotating platforms with challenges.\n\nConcept\n<ul>\n \t<li style=\"font-weight: 400;\"
+  ><span style=\"font-weight: 400;\">Fixed number of platforms organised in a grid
+  pattern</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight:
+  400;\">Five types of platforms:</span>\n<ul>\n \t<li style=\"font-weight: 400;\"
+  ><span style=\"font-weight: 400;\">Straight</span></li>\n \t<li style=\"font-weight:
+  400;\"><span style=\"font-weight: 400;\">T shape</span></li>\n \t<li style=\"
+  font-weight: 400;\"><span style=\"font-weight: 400;\">L shape</span></li>\n \t<li
+  style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Cross</span></li>\n
+  \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Empty</span></li>\n
+  </ul>\n</li>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\"
+  >All platforms rotate (except for the empty one)</span></li>\n \t<li style=\"font-weight:
+  400;\"><span style=\"font-weight: 400;\">Surrounding frame</span></li>\n \t<li
+  style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Different paths
+  will appear dynamically.</span></li>\n \t<li style=\"font-weight: 400;\"><span
+  style=\"font-weight: 400;\">The orientation of the challenges also changes, creating
+  additional diversity.</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"
+  font-weight: 400;\">Should probably be bigger than the example. 6x6 maybe?</span></li>\n
+  \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">There are
+  5 shapes. 4 are illustrated here. The empty island is also possible.</span></li>\n
+  \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Constraints
+  regarding the different shapes and positions</span></li>\n \t<li style=\"font-weight:
+  400;\"><span style=\"font-weight: 400;\">An algorithm will try to make sure no
+  islands are completely isolated for too long.</span></li>\n \t<li style=\"font-weight:
+  400;\"><span style=\"font-weight: 400;\">Trade-off between isolation and interesting
+  paths</span></li>\n</ul>\n<span style=\"font-weight: 400;\">We want to encourage
+  different kinds of play in our playground. </span>\n\n<span style=\"font-weight:
+  400;\">If we take</span><i><span style=\"font-weight: 400;\"> tag </span></i><span
+  style=\"font-weight: 400;\">as an example play activity, the playground allows
+  for dynamic routes through the terrain where people would be able to plan ahead
+  and choose the paths that suits them the most.</span>\n\n<span style=\"font-weight:
+  400;\">The individual platforms with obstacles could also be used for play activities
+  in themselves, somewhat ignoring the larger structure, but allowing people to
+  move on to another platform later on.</span>\n\n<span style=\"font-weight: 400;\"
+  >The rotation principle would allow people to have a dynamic play experience as
+  they were playing, since the platforms rotate in real time, but it would also
+  afford people a completely new layout once they return another day.</span>\n\n
+  <span style=\"font-weight: 400;\">We decided to add empty platforms to the grid
+  to give people an option to hang out and relax between the more physical activities
+  of the other platforms.</span>"

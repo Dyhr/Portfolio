@@ -1,0 +1,22 @@
+---
+
+name: Escape Bot 2
+date: Sun, 21 Aug 2011 11:00:13 +0000
+role:
+- Programmer
+tags:
+- 2d
+- game
+- game-jam
+- games
+- singleplayer
+
+links:
+- name: Play
+  url: http://www.newgrounds.com/dump/item/33ef5be9e94439ec4e418660d3208fd2\
+short: >
+  Top down shooter game
+desc: "Top down shooter game. Avoid mines and open doors
+  until you get to the end. Each engine is controlled separately. The doors are
+  a bit janky, and the game doesn't really take lag into account, but otherwise
+  functional.\n\n&nbsp;\n\nMade for Ludum Dare 21."

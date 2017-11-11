@@ -1,0 +1,37 @@
+---
+
+name: Knights
+date: Mon, 07 Oct 2013 11:00:06 +0000
+role:
+- Programmer
+tags:
+- 3d
+- game
+- game-jam
+- games
+- multiplayer
+
+links:
+- name: GitHub
+  url: https://github.com/Dyhr/Mini-Jam-5-Knights
+short: >
+  Fight to the death
+desc: "Fight to the death. <em><strong>Y</strong></em><b><i>ou're
+  knights who fight at the bottom of a\_volcano. Now the time is running out and
+  the vulcano is collapsing and the\_platforms moving around. Quickly kill your
+  opponents while avoiding the magma!</i></b>\n\nWhen players enter the level -
+  Then the platforms will start to shift and new \"islands\" will appear. The players
+  shall in this time try to avoid the collapsing (Jittering!) islands, and jump
+  onto new ones. Al though, while still being able to kill &amp; block the other
+  players. The last to survive the level wins, and the round restarts.\n\nControls
+  are the following:\n<ul>\n \t<li>Left Analog Stick - Movement</li>\n \t<li>Button
+  A - Attacking / Join Game</li>\n \t<li>Button B - Blocking</li>\n \t<li>Button
+  X - Jumping</li>\n \t<li>Start - Start Game</li>\n</ul>\nThe Controls have been
+  made in mind of playing from 2-4 players, each with their own Microsoft Xbox Controller
+  attached to the Computer running the Game.\n\nWhen first entering the game you
+  will be greeted by a Screen saying \"Get Ready, Knights!\". The players who want
+  to join press A to toggle their Player on the screen - Here they can also see
+  which colour they are. When ready, then any player press \"Start\" button on his/her
+  controller to start the game. And the game begins.\n\n&nbsp;\n\nMade for Unge
+  Spiludviklere's Mini Jam 5\n\nGroup members:\n<ul>\n \t<li>Frans Peter Larsen</li>\n
+  \t<li>Rasmus Dyhr Larsen</li>\n</ul>"

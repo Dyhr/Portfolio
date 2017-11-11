@@ -1,0 +1,21 @@
+---
+
+name: Shadow Sounds
+date: Mon, 12 Dec 2016 09:00:16 +0000
+role:
+- Programmer
+tags:
+- 2d
+- game
+- game-design-2016
+- games
+- singleplayer
+
+links:
+- name: itch.io Page
+  url: https://kasperhdl.itch.io/shadow-sounds
+- name: GitHub
+  url: https://github.com/KasperHdL/Shadow-Sounds
+short: >
+  A 2D sound based horror game
+desc: 'A 2D sound based horror game, about aliens infecting a research facility in the antarctic.'

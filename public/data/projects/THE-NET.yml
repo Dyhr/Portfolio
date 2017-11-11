@@ -1,0 +1,27 @@
+---
+
+name: The Net
+date: Sun, 23 Aug 2015 11:00:23 +0000
+role:
+- Programmer
+tags:
+- 3d
+- game
+- game-jam
+- games
+- singleplayer
+
+links:
+- name: itch.io page
+  url: https://dyhr.itch.io/the-net
+short: >
+  Intense stealth hacking game
+desc: 'Intense stealth hacking game, where you play as a hacker, attempting to steal.. a thing.
+
+  Hack into terminals to get deeper access to the building, by either opening doors
+  or finding access cards.
+
+  Watch out for guards, who patrol the corridors. If they spot you they might call
+  for help.
+
+  Made for Ludum Dare 33.'

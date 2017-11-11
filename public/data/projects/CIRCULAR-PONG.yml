@@ -1,0 +1,23 @@
+---
+
+name: Circular Pong
+date: Tue, 02 Apr 2013 11:00:23 +0000
+role:
+- Programmer
+tags:
+- 2d
+- game
+- games
+- multiplayer
+
+links:
+- name: Play
+  url: http://www.newgrounds.com/portal/view/614501
+short: >
+  Online circular pong with up to 7 players.
+desc: "Online circular pong with up to 7 players. Based on
+  the classic game Pong, but on a circular playing field. The online component still
+  works, even if it is laggy, but there aren't any AI opponent to practice against.\n
+  There are several ways to tweak your game experience including game type, ball
+  and player speed and more.\nYou're properly gonna need some friends to play it
+  however."

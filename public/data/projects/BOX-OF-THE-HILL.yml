@@ -1,0 +1,23 @@
+---
+
+date: Wed, 30 Jan 2013 11:00:13 +0000
+name: Box of the Hill
+role:
+- Programmer
+tags:
+- 2d
+- game
+- game-jam
+- games
+- multiplayer
+
+links:
+- name: Unicorn 7 Page
+  url: http://www.unicorn7.org/games/game/32/
+short: >
+  King of the hill with boxes
+desc: Physics based platformer.
+  King of the hill with boxes. There are 5 power-ups that change your physical properties, such as size, weight
+  and shape. Use this to stay on top of the designated hill for long enough to win.\n
+  \nMade for Nordic Game Jam 2013\n\nGroup members:\n<ul>\n \t<li>Asger Aagard Nielsen</li>\n
+  \t<li>Rasmus Dyhr Larsen</li>\n</ul>"

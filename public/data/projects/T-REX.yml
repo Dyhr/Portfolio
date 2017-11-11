@@ -1,0 +1,30 @@
+---
+
+name: 'T-Rex <3 Guns'
+date: Sun, 08 Mar 2015 11:00:18 +0000
+role:
+- Programmer
+tags:
+- 2d
+- game
+- game-jam
+- games
+- multiplayer
+
+links:
+- name: itch.io page
+  url: https://fniss.itch.io/t-rex3guns
+short: >
+  Dino platformer. Party shooter.
+desc: "Dino platformer. Party shooter.\n\nThis is a 2-4 player
+  game about some T-Rex and their guns. It is recommended to be played with four
+  xbox 360 controllers even if one player can play on the keyboard.\n\nControlls
+  In-Game:\n<ul>\n \t<li>Movement: Left stick or WASD</li>\n \t<li>Jump: A-button
+  or W</li>\n \t<li>Fire all weapons: Right trigger or G</li>\n \t<li>Join/Respawn:
+  X-button or X</li>\n \t<li>Suicide: Back or Q</li>\n</ul>\nAt the splash screen:\n
+  <ul>\n \t<li>Change length of game: Left and Right Bumper or Q and E</li>\n \t<li>Change
+  level: Left stick or A and D S</li>\n \t<li>tart Game: X-button or X</li>\n</ul>\n
+  The game was created at Nordic Game Jam 2015\_by the following people:\n<ul>\n \t
+  <li>Andreas Bergqvist: Art and Design</li>\n \t<li>Kristijonas Malisauskas: Code
+  and Design</li>\n \t<li>Ky Gurazs: Music and Design</li>\n \t<li>Rasmus Dyhr Larsen:
+  Code and Design</li>\n \t<li>Sebastian Rostved: Audio and Design</li>\n</ul>"

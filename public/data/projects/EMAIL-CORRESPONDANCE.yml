@@ -1,0 +1,31 @@
+---
+
+name: Email Correspondance
+date: Sun, 10 Apr 2016 11:00:50 +0000
+role:
+- Programmer
+tags:
+- 2d
+- game
+- game-jam
+- games
+- multiplayer
+- prototype
+
+links:
+- name: itch.io page
+  url: https://dyhr.itch.io/email
+short: >
+  Chromecast game about emails
+desc: 'Chromecast game about emails. Each person makes money by sending emails
+  to clients. However you can make some extra money and gain an edge on your opponents
+  by leaking information in your emails. Each email has to be checked by to coworkers
+  to prevent this.
+
+
+  The hidden information is literally a recognizable word amongst other randomly generated
+  words, and the players literally has to read the texts to figure out whether it
+  contains information or not.
+
+
+  Made for Nordic Game Jam 2016'

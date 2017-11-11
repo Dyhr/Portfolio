@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import './Project.css';
 
+var YAML = require('yamljs');
+var Markdown = require('react-markdown');
+
 
 class Project extends Component {
   constructor(props) {
     super(props);
 
     this.toggle = this.toggle.bind(this);
-
-    var YAML = require('yamljs');
-    this.state = YAML.load('data/projects/'+props.name+'.yml');
-    this.state.open = false;
+    this.state = {...YAML.load('data/projects/'+props.name+'.yml'), open: false};
   }
 
   toggle() {
@@ -23,7 +23,7 @@ class Project extends Component {
     return (
       <div className={"Project"+(this.state.open?" Project-toggled":"")} onClick={this.toggle}>
         <h2 className="Project-header">{this.state.name}</h2>
-        <p className="Project-description">{this.state.open ? this.state.desc : this.state.short}</p>
+        <Markdown className="Project-description" source={this.state.open ? this.state.desc : this.state.short} />
       </div>
     );
   }

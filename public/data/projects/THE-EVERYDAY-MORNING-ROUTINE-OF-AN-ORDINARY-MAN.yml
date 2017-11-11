@@ -1,0 +1,30 @@
+---
+
+name: The Everyday Morning Routine of an Ordinary Man
+date: Sun, 31 Jan 2016 11:00:49 +0000
+role:
+- Programmer
+tags:
+- 3d
+- game
+- game-jam
+- games
+- singleplayer
+
+links:
+- name: PC Download
+  url: http://ggj.s3.amazonaws.com/games/2016/01/31/1452/PC.zip
+- name: GGJ Page
+  url: http://globalgamejam.org/2016/games/everyday-morning-routine-ordinary-man
+- name: GitHub
+  url: https://github.com/Dyhr/GGJ16-TheEverydayMorningRoutineOfAnOrdinaryMan
+short: >
+  Play as an important ordinary businness man
+desc: "Play as an important ordinary businness man,
+  that needs to leave your apartment on time, but not before you've had your morning
+  coffee, gotten dressed, fed your cat, and whatever else you want to waste your
+  time on. Your coffe maker also appears to be broken so you'll have to figure
+  out an alternative. Watch your stress though, as it might become a problem if
+  you don't take time to relax.\n\nMade for the Global Game Jam 2016\n
+  \nGroup members:\n<ul>\n<li>Amanda Maria Stokholm James</li>\n<li>Rasmus Dyhr
+  Larsen</li>\n</ul>"

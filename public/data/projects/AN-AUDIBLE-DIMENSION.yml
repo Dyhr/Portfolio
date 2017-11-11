@@ -1,0 +1,23 @@
+---
+
+name: An Audible Dimension
+date: Mon, 17 Oct 2016 11:00:11 +0000
+role:
+- Programmer
+tags:
+- 2d
+- game
+- game-design-2016
+- games
+- prototype
+- singleplayer
+links: []
+short: >
+  2D travel in a 1D game
+desc: "2D travel in a 1D game\n\nThe player travels forward at a constant
+  speed and can only see what's directly in front of him, but he can hear what is
+  in the other dimension, ie. left and right. You have to avoid obstacles to get
+  to the end.\n\n&nbsp;\n\nKey Elements\n\n\u2022 Limited visual area\n\n\u2022 Constant
+  speed forward\n\n\u2022 Object is larger than the area the player can see\n\n\u2022
+  Audio feedback regarding obstacles and objects in the game world\n\n\u2022 Use
+  of objects to affect the size, allowing different paths to exit"
