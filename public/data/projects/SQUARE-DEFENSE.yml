@@ -2,6 +2,9 @@
 
 name: Square Defense
 date: Sat, 18 Dec 2010 11:00:13 +0000
+
+image: square-defense
+
 role:
 - Programmer
 tags:

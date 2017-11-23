@@ -2,6 +2,9 @@
 
 date: Wed, 30 Jan 2013 11:00:13 +0000
 name: Box of the Hill
+
+image: box-hill
+
 role:
 - Programmer
 tags:

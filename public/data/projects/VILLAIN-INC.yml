@@ -2,6 +2,9 @@
 
 name: Villain Inc.
 date: Sun, 16 Dec 2012 11:00:00 +0000
+
+image: villain
+
 role:
 - Programmer
 tags:

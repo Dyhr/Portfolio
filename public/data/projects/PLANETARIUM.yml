@@ -2,6 +2,9 @@
 
 name: Planetarium
 date: Sun, 24 Aug 2014 11:00:29 +0000
+
+image: planetarium
+
 role:
 - Programmer
 tags:

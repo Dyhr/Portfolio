@@ -2,6 +2,9 @@
 
 name: Evoroid
 date: Sun, 26 Aug 2012 11:00:33 +0000
+
+image: evoroid
+
 role:
 - Programmer
 tags:

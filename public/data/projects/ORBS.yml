@@ -2,6 +2,9 @@
 
 name: Orbs
 date: Mon, 26 Nov 2012 11:00:26 +0000
+
+image: orbs
+
 role:
 - Programmer
 tags:

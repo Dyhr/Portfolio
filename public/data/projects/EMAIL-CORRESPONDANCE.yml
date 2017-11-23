@@ -2,6 +2,9 @@
 
 name: Email Correspondance
 date: Sun, 10 Apr 2016 11:00:50 +0000
+
+image: email-correspondance
+
 role:
 - Programmer
 tags:

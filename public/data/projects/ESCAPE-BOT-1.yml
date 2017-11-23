@@ -2,6 +2,9 @@
 
 name: Escape Bot 1
 date: Sun, 01 May 2011 11:00:36 +0000
+
+image: escape-bot-1
+
 role:
 - Programmer
 tags:

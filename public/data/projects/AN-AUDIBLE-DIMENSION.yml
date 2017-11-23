@@ -2,6 +2,9 @@
 
 name: An Audible Dimension
 date: Mon, 17 Oct 2016 11:00:11 +0000
+
+image: dimension
+
 role:
 - Programmer
 tags:
@@ -12,6 +15,7 @@ tags:
 - prototype
 - singleplayer
 links: []
+
 short: >
   2D travel in a 1D game
 desc: "2D travel in a 1D game\n\nThe player travels forward at a constant

@@ -2,6 +2,9 @@
 
 name: Knights
 date: Mon, 07 Oct 2013 11:00:06 +0000
+
+image: knights
+
 role:
 - Programmer
 tags:

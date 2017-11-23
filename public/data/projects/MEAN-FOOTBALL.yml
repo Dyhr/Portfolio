@@ -2,6 +2,9 @@
 
 name: Mean Football
 date: Mon, 12 Sep 2016 12:35:43 +0000
+
+image: mean-football
+
 role:
 - Programmer
 tags:

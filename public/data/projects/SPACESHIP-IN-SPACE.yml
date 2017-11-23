@@ -2,6 +2,9 @@
 
 name: Spaceship in Space
 date: Mon, 29 May 2017 11:00:12 +0000
+
+image: spaceship
+
 role:
 - Game Designer
 - Programmer

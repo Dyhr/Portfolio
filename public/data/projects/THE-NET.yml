@@ -2,6 +2,9 @@
 
 name: The Net
 date: Sun, 23 Aug 2015 11:00:23 +0000
+
+image: net
+
 role:
 - Programmer
 tags:
