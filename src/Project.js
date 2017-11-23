@@ -10,10 +10,11 @@ class Project extends Component {
     super(props);
 
     this.toggle = this.toggle.bind(this);
-    this.state = {...YAML.load('data/projects/'+props.name+'.yml'), open: false};
+    this.state = {...YAML.load('data/projects/'+props.name+'.yml'), open: false, id: props.name};
   }
 
   toggle() {
+    document.getElementById(this.state.id).scrollIntoView();
     this.setState(prev => ({
       open: !prev.open
     }));
@@ -37,14 +38,14 @@ class Project extends Component {
     else if(this.urlExists(base+name+".png"))
       type = ".png";
     return {
-      "backgroundImage":"linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url("+base+name+type+")"
+      "backgroundImage":"linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)),url("+base+name+type+")"
     };
   }
 
   render() {
     // <img className="Project-img" alt="" src={this.image()} />
     return (
-      <div className={"Project"+(this.state.open?" Project-toggled":"")} style={this.style()} onClick={this.toggle}>
+      <div className={"Project"+(this.state.open?" Project-toggled":"")} id={this.state.id} style={this.style()} onClick={this.toggle}>
         <h2 className="Project-header">{this.state.name}</h2>
         <Markdown className="Project-description" source={this.state.open ? this.state.desc : this.state.short} />
       </div>

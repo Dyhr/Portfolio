@@ -3,7 +3,7 @@
   height: 300px;
   background-color: #AAA;
   cursor: pointer;
-  transition: background-color 0.4s, height 1.2s;
+  transition: background-color 0.4s, height 0.8s;
   position: relative;
   color: #EEE;
   background-size: cover;
@@ -20,16 +20,8 @@
 
 .Project-header {
   margin: 0;
-  z-index: 1;
 }
 
 .Project-description {
   margin: 0;
-  z-index: 1;
-}
-
-.Project-img {
-  position: relative;
-  width: 100%;
-  height: auto;
 }
