@@ -11,8 +11,9 @@
 }
 
 .App-title {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 80px;
   margin: 0;
-  font-size: 4em;
   line-height: 200px;
 }
 

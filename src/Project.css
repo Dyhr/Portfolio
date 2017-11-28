@@ -19,9 +19,17 @@
 }
 
 .Project-header {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 45px;
+
+  padding-top: 75px;
   margin: 0;
 }
 
 .Project-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+
+  padding: 45px;
   margin: 0;
 }
