@@ -17,7 +17,7 @@ class App extends Component {
           <h1 className="App-title">Rasmus Dyhr Larsen</h1>
         </header>
         {this.data.games.map(item => <Project key={item} name={item} />)}
-        <footer>
+        <footer className="App-footer">
           <p>Copyright {(new Date()).getFullYear()} © Rasmus Dyhr Larsen</p>
         </footer>
       </div>

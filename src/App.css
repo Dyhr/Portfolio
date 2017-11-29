@@ -9,6 +9,11 @@
   padding: 20px;
   color: white;
 }
+.App-footer {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
 
 .App-title {
   font-family: 'Share Tech Mono', monospace;

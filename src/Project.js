@@ -14,7 +14,7 @@ class Project extends Component {
   }
 
   toggle() {
-    document.getElementById(this.state.id).scrollIntoView();
+    //document.getElementById(this.state.id).scrollIntoView();
     this.setState(prev => ({
       open: !prev.open
     }));
