@@ -9,15 +9,26 @@ class Project extends Component {
   constructor(props) {
     super(props);
 
+    var data = YAML.load('data/projects/'+props.name+'.yml');
+
+    props.row.push(this);
+
     this.toggle = this.toggle.bind(this);
-    this.state = {...YAML.load('data/projects/'+props.name+'.yml'), open: false, id: props.name};
+    this.state = {
+      ...data,
+      open: false,
+      row: props.row,
+      id: props.name,
+      size: props.size,
+    };
   }
 
   toggle() {
-    //document.getElementById(this.state.id).scrollIntoView();
-    this.setState(prev => ({
-      open: !prev.open
-    }));
+    for (let item of this.state.row)
+      item.setState(prev => {
+        prev.open = !prev.open;
+        return prev;
+      });
   }
 
   urlExists(url){
@@ -28,9 +39,9 @@ class Project extends Component {
   }
 
   style() {
-    var base = "data/img/"
+    var base = "data/img/";
     var name = this.state.image;
-    var type = "."
+    var type = ".";
     if(this.urlExists(base+name+".gif"))
       type = ".gif";
     else if(this.urlExists(base+name+".jpg"))
@@ -42,15 +53,23 @@ class Project extends Component {
     };
   }
 
+  text() {
+    return this.state.open ? this.state.desc : this.state.short;
+  }
+  classes() {
+    var arr = ["Project", "Project-size-"+this.state.size];
+    if(this.state.open)arr.push("Project-toggled");
+    return arr.join(" ");
+  }
+
   render() {
-    // <img className="Project-img" alt="" src={this.image()} />
     return (
-      <div className={"Project"+(this.state.open?" Project-toggled":"")} id={this.state.id} style={this.style()} onClick={this.toggle}>
+      <div className={this.classes()} id={this.state.id} style={this.style()} onClick={this.toggle}>
         <h2 className="Project-header">{this.state.name}</h2>
-        <Markdown className="Project-description" source={this.state.open ? this.state.desc : this.state.short} />
+        <Markdown className="Project-description" source={this.text()} />
       </div>
     );
   }
 }
 
-export default Project
+export default Project;

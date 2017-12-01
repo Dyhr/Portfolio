@@ -8,11 +8,16 @@
   height: 200px;
   padding: 20px;
   color: white;
+  width: 100%;
 }
 .App-footer {
   background-color: #222;
   padding: 20px;
   color: white;
+  width: 100%;
+}
+.App > * {
+  float: left;
 }
 
 .App-title {
@@ -24,4 +29,13 @@
 
 .App-intro {
   font-size: large;
+}
+
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }

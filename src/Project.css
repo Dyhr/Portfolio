@@ -1,13 +1,16 @@
 .Project {
-  width: 100%;
-  height: 300px;
-  background-color: #AAA;
   cursor: pointer;
-  transition: background-color 0.4s, height 0.8s;
   position: relative;
+  float: left;
+
   color: #EEE;
+
+  background-color: #AAA;
   background-size: cover;
   background-position: center;
+
+  height: 300px;
+  transition: background-color 0.4s, height 0.8s;
 }
 
 .Project:hover {
@@ -32,4 +35,16 @@
 
   padding: 45px;
   margin: 0;
+}
+
+.Project-size-undefined, .Project-size-large {
+  width: 100%;
+}
+
+.Project-size-medium {
+  width: 50%;
+}
+
+.Project-size-small {
+  width: 25%;
 }
