@@ -62,10 +62,22 @@ class Project extends Component {
     return arr.join(" ");
   }
 
+  date() {
+    var monthNames = [
+      "January", "February", "March",
+      "April", "May", "June", "July",
+      "August", "September", "October",
+      "November", "December"
+    ];
+    var date = new Date(this.state.date);
+    return ((this.state.open ? date.getDate() + " " : "") + monthNames[date.getMonth()].toUpperCase() + " " + date.getFullYear());
+  }
+
   render() {
     return (
       <div className={this.classes()} id={this.state.id} style={this.style()} onClick={this.toggle}>
         <h2 className="Project-header">{this.state.name}</h2>
+        <p className="Project-date">{this.date()}</p>
         <Markdown className="Project-description" source={this.text()} />
       </div>
     );

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Project, { Row } from './Project.js';
+import Project from './Project.js';
 
 class App extends Component {
   constructor(props) {
