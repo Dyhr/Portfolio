@@ -17,19 +17,35 @@ class App extends Component {
           <h1 className="App-title">Rasmus Dyhr Larsen</h1>
         </header>
         {this.data.games.reduce((acc, val) => {
+          var type = "undefined";
           if(typeof(val)==='string') {
-            acc.row = [];
             acc.arr.push({name: val, row: acc.row});
-            acc.row = [];
           } else {
+            type = val[1];
             acc.arr.push({
               name: val[0],
               size: val[1],
               row: acc.row,
             });
           }
+
+          acc.c += 1;
+          var max = 0;
+          switch(type) {
+            case "small": max = 4;
+              break;
+            case "medium": max = 2;
+              break;
+            default: max = 1;
+              break;
+          }
+          if(acc.c >= max){
+            acc.row=[];
+            acc.c = 0;
+          }
+
           return acc;
-        }, {arr:[],row:[]}).arr.map(item => {
+        }, {arr:[],row:[],c:0}).arr.map(item => {
           return <Project key={item.name} name={item.name} size={item.size} row={item.row} />;
         })}
         <footer className="App-footer">
