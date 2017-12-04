@@ -26,9 +26,11 @@ class App extends Component {
           acc.c += 1;
           var max = 0;
           switch(val[0]) {
-            case "small": max = 4;
+            case "quater": max = 4;
               break;
-            case "medium": max = 2;
+            case "third": max = 3;
+              break;
+            case "half": max = 2;
               break;
             default: max = 1;
               break;
