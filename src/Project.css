@@ -45,14 +45,15 @@
   margin: 0;
 }
 
-.Project-size-undefined, .Project-size-large {
+.Project-size-full {
   width: 100%;
 }
-
-.Project-size-medium {
+.Project-size-half {
   width: 50%;
 }
-
-.Project-size-small {
+.Project-size-third {
+  width: 33.333%;
+}
+.Project-size-quater {
   width: 25%;
 }

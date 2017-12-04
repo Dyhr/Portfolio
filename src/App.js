@@ -17,21 +17,15 @@ class App extends Component {
           <h1 className="App-title">Rasmus Dyhr Larsen</h1>
         </header>
         {this.data.games.reduce((acc, val) => {
-          var type = "undefined";
-          if(typeof(val)==='string') {
-            acc.arr.push({name: val, row: acc.row});
-          } else {
-            type = val[1];
-            acc.arr.push({
-              name: val[0],
-              size: val[1],
-              row: acc.row,
-            });
-          }
+          acc.arr.push({
+            name: val[1],
+            size: val[0],
+            row: acc.row,
+          });
 
           acc.c += 1;
           var max = 0;
-          switch(type) {
+          switch(val[0]) {
             case "small": max = 4;
               break;
             case "medium": max = 2;
