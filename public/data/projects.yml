@@ -1,6 +1,6 @@
 ---
 
-games:
+projects:
 - [full, SPACESHIP-IN-SPACE]
 - [full, SHADOW-SOUNDS]
 - [full, OVERBREWED]
@@ -11,6 +11,7 @@ games:
 - [half, IN-BATTLE]
 - [half, THE-EVERYDAY-MORNING-ROUTINE-OF-AN-ORDINARY-MAN]
 - [half, EMAIL-CORRESPONDANCE]
+- [group, "OLDER LESS INTERESTING PROJECTS"]
 - [full, NEAT-MAN]
 - [third, RAP]
 - [third, WATCH-OUT-FOR-PIRATES]

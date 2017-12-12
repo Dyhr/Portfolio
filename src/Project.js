@@ -75,11 +75,11 @@ class Project extends Component {
 
   render() {
     return (
-      <div className={this.classes()} id={this.state.id} style={this.style()} onClick={this.toggle}>
+      <section className={this.classes()} id={this.state.id} style={this.style()} onClick={this.toggle}>
         <h2 className="Project-header">{this.state.name}</h2>
         <p className="Project-date">{this.date()}</p>
         <Markdown className="Project-description" source={this.text()} />
-      </div>
+      </section>
     );
   }
 }

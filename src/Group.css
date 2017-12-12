@@ -1,0 +1,14 @@
+
+.Group-toggle {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 24px;
+
+  height: 150px;
+  color: #AAA;
+
+  vertical-align: middle;
+  line-height: 150px;
+}
+.Group-toggle > span {
+  cursor: pointer;
+}
