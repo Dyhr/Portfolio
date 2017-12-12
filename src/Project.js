@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
 import './Project.css';
 
-var YAML = require('yamljs');
+var yaml = require('js-yaml');
 var Markdown = require('react-markdown');
 
 
 class Project extends Component {
   constructor(props) {
     super(props);
-
-    var data = YAML.load('data/projects/'+props.name+'.yml');
-
     props.row.push(this);
+
+    var req = new XMLHttpRequest();
+    req.open('GET', './data/projects/'+props.name+'.yml', false);
+    req.send();
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      ...data,
+      ...yaml.safeLoad(req.responseText),
       open: false,
       row: props.row,
       id: props.name,

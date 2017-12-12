@@ -6,8 +6,17 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    var YAML = require('yamljs');
-    this.data = YAML.load('data/projects.yml');
+    var yaml = require('js-yaml');
+    var element = this;
+
+    var req = new XMLHttpRequest();
+    req.open('GET', './data/projects.yml');
+    req.onload = function(e) {
+      element.setState({data: yaml.safeLoad(req.responseText)});
+    };
+    req.send();
+
+    this.state = {data:{projects:[]}};
   }
 
   makeid(length) {
@@ -21,7 +30,7 @@ class App extends Component {
   groups() {
     return (
       <main>
-      {this.data.projects.reduce((acc,val) => {
+      {this.state.data.projects.reduce((acc,val) => {
         if(val[0] === 'group') acc.push([]);
         acc[acc.length-1].push(val);
         return acc;
