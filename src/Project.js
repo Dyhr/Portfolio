@@ -10,21 +10,26 @@ class Project extends Component {
     super(props);
     props.row.push(this);
 
-    var req = new XMLHttpRequest();
-    req.open('GET', './data/projects/'+props.name+'.yml', false);
-    req.send();
-
     this.toggle = this.toggle.bind(this);
     this.state = {
-      ...yaml.safeLoad(req.responseText),
       open: false,
-      row: props.row,
-      id: props.name,
       size: props.size,
     };
   }
 
   componentDidMount() {
+    var elem = this;
+    var req = new XMLHttpRequest();
+    req.open('GET', './data/projects/'+this.props.name+'.yml');
+    req.onload = function(e) {
+      elem.setState({...yaml.safeLoad(req.responseText)});
+    };
+    req.send();
+  }
+
+  loadImage(){
+    if(!this.state.image) return;
+
     var xhr = new XMLHttpRequest();
     var base = 'data/img/';
     var name = this.state.image;
@@ -41,22 +46,22 @@ class Project extends Component {
       xhr.send(null);
     }
     var found = function(e) {
-      if(xhr.responseText.startsWith('<!doctype html>')) {
+      if(xhr.responseText.startsWith('<')) {
         error(null);
       } else {
         element.setState({imageUrl:base+name+type[0]});
-        xhr.abort();
       }
+      xhr.abort();
     }
 
     xhr.open("GET",base+name+type,true);
-    xhr.onload = found;
+    xhr.onprogress = found;
     xhr.onerror = error;
     xhr.send(null);
   }
 
   toggle() {
-    for (let item of this.state.row)
+    for (let item of this.props.row)
       item.setState(prev => {
         prev.open = !prev.open;
         return prev;
@@ -70,6 +75,7 @@ class Project extends Component {
   }
 
   text() {
+    if(!this.state.desc)return "";
     return this.state.open ? this.state.desc : this.state.short;
   }
   classes() {
@@ -79,6 +85,8 @@ class Project extends Component {
   }
 
   date() {
+    if(!this.state.date) return null;
+
     var monthNames = [
       "January", "February", "March",
       "April", "May", "June", "July",
@@ -90,8 +98,9 @@ class Project extends Component {
   }
 
   render() {
+    if(this.state.imageUrl === undefined) this.loadImage();
     return (
-      <section className={this.classes()} id={this.state.id} style={this.style()} onClick={this.toggle}>
+      <section className={this.classes()} id={this.props.name} style={this.style()} onClick={this.toggle}>
         <h2 className="Project-header">{this.state.name}</h2>
         <p className="Project-date">{this.date()}</p>
         <Markdown className="Project-description" source={this.text()} />
