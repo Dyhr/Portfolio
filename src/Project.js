@@ -46,7 +46,7 @@ class Project extends Component {
       xhr.send(null);
     }
     var found = function(e) {
-      if(xhr.responseText.startsWith('<')) {
+      if(e.loaded > 64 && xhr.responseText.startsWith('<!')) {
         error(null);
       } else {
         element.setState({imageUrl:base+name+type[0]});
