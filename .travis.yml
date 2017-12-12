@@ -13,9 +13,9 @@ cache:
   directories:
     - "node_modules"
 
-#deploy:
-#  provider: surge
-#  project: ./build/
-#  domain: rasmusdyhr.surge.sh
-#  on: master
-#  skip_cleanup: true
+deploy:
+  provider: surge
+  project: ./build/
+  domain: rasmusdyhr.surge.sh
+  on: master
+  skip_cleanup: true
