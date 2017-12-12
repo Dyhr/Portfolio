@@ -47,11 +47,12 @@ class Project extends Component {
     }
     var found = function(e) {
       if(e.loaded > 64 && xhr.responseText.startsWith('<!')) {
+        xhr.abort();
         error(null);
       } else {
+        xhr.abort();
         element.setState({imageUrl:base+name+type[0]});
       }
-      xhr.abort();
     }
 
     xhr.open("GET",base+name+type,true);
