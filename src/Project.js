@@ -22,6 +22,7 @@ class Project extends Component {
     var req = new XMLHttpRequest();
     req.open('GET', './data/projects/'+this.props.name+'.yml');
     req.onload = function(e) {
+      console.log(req.responseText);
       elem.setState({...yaml.safeLoad(req.responseText)});
     };
     req.send();
@@ -31,7 +32,7 @@ class Project extends Component {
     if(!this.state.image) return;
 
     var xhr = new XMLHttpRequest();
-    var base = 'data/img/';
+    var base = 'data/img/thumbs/';
     var name = this.state.image;
     var type = ['.gif'];
     var element = this;
@@ -75,10 +76,6 @@ class Project extends Component {
     };
   }
 
-  text() {
-    if(!this.state.desc)return "";
-    return this.state.open ? this.state.desc : this.state.short;
-  }
   classes() {
     var arr = ["Project", "Project-size-"+this.state.size];
     if(this.state.open)arr.push("Project-toggled");
@@ -98,13 +95,33 @@ class Project extends Component {
     return ((this.state.open ? date.getDate() + " " : "") + monthNames[date.getMonth()].toUpperCase() + " " + date.getFullYear());
   }
 
+  content() {
+    if(!this.state.desc)
+      return null;
+    if(!this.state.open)
+      return <Markdown className="Project-description" source={this.state.short} />;
+    if(!this.state.content || this.state.content.length == 0)
+      return <Markdown className="Project-description Project-description-full" source={this.state.desc} />;
+
+    var contents = this.state.content.map(item => {
+      if(item[0] === "screen") return <img className="Project-screenshot" src={"data/img/screens/"+item[1]} alt="Screenshot" />
+    });
+
+    return (
+      <div>
+        <Markdown className="Project-description Project-description-half" source={this.state.desc} />
+        <div className="Project-contents">{contents}</div>
+      </div>
+    );
+  }
+
   render() {
     if(this.state.imageUrl === undefined) this.loadImage();
     return (
       <section className={this.classes()} id={this.props.name} style={this.style()} onClick={this.toggle}>
         <h2 className="Project-header">{this.state.name}</h2>
         <p className="Project-date">{this.date()}</p>
-        <Markdown className="Project-description" source={this.text()} />
+        {this.content()}
       </section>
     );
   }

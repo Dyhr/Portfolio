@@ -1,5 +1,11 @@
 
+.Group {
+  display: block;
+  width: 100%;
+}
+
 .Group-toggle {
+  display: block;
   font-family: 'Share Tech Mono', monospace;
   font-size: 24px;
 
@@ -11,4 +17,8 @@
 }
 .Group-toggle > span {
   cursor: pointer;
+}
+.Group-item {
+  display: block;
+  width: 100%;
 }

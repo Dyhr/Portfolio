@@ -1,4 +1,5 @@
 .App {
+  display: block;
   text-align: center;
   background-color: #222;
 }
@@ -12,9 +13,7 @@
 .App-footer {
   color: #444;
   width: 100%;
-}
-.App > * {
-  float: left;
+  padding-bottom: 20px;
 }
 
 .App-title {
@@ -26,6 +25,11 @@
 
 .App-intro {
   font-size: large;
+}
+
+main {
+  display: block;
+  width: 100%;
 }
 
 .clearfix {

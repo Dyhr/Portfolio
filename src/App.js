@@ -43,7 +43,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App clearfix">
+      <div className="App">
         <header className="App-header">
           <h1 className="App-title">Rasmus Dyhr Larsen</h1>
         </header>

@@ -61,7 +61,7 @@ class Group extends Component {
 
   render() {
     return (
-      <div className="Group clearfix">
+      <div className="Group">
       <GroupToggle label={this.state.label} open={this.state.open} click={this.toggle} />
       <GroupItems items={this.state.items} open={this.state.open} />
       </div>

@@ -36,3 +36,6 @@ desc: "A single-player, strategy-focused space simulator with a focus on
   meteoroid collisions, which will result in broken instruments. You may consult
   the AI and/or the diagnostics system, in order to gain awareness of the status
   of the ship, which in turn will help you decide on their next move."
+
+content:
+  - [ screen, gif027.gif ]

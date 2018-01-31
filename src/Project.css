@@ -1,7 +1,9 @@
 .Project {
   cursor: pointer;
+
+  display: block;
   position: relative;
-  float: left;
+  float:left;
 
   color: #EEE;
 
@@ -9,7 +11,9 @@
   background-size: cover;
   background-position: center;
 
+  padding-top: 75px;
   height: 300px;
+  width: 80%;
   transition: background-color 0.4s, height 0.8s;
 }
 
@@ -26,7 +30,6 @@
   font-size: 45px;
 
   margin: 0;
-  margin-top: 75px;
 }
 
 .Project-date {
@@ -42,6 +45,25 @@
   font-size: 16px;
 
   margin: 45px;
+}
+.Project-description-full {
+  text-align: left;
+  width: 60%;
+  margin: 45px auto;
+}
+.Project-description-half {
+  text-align: left;
+  margin: 45px 5%;
+  width: 40%;
+  float: left;
+}
+.Project-contents {
+  margin: 45px 5%;
+  width: 40%;
+  float: left;
+}
+.Project-screenshot {
+  width: 100%;
 }
 
 .Project-size-full {
