@@ -100,11 +100,12 @@ class Project extends Component {
       return null;
     if(!this.state.open)
       return <Markdown className="Project-description" source={this.state.short} />;
-    if(!this.state.content || this.state.content.length == 0)
+    if(!this.state.content || this.state.content.length === 0)
       return <Markdown className="Project-description Project-description-full" source={this.state.desc} />;
 
     var contents = this.state.content.map(item => {
       if(item[0] === "screen") return <img className="Project-screenshot" src={"data/img/screens/"+item[1]} alt="Screenshot" />
+      return null;
     });
 
     return (
