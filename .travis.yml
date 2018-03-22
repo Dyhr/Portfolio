@@ -16,6 +16,6 @@ cache:
 deploy:
   provider: surge
   project: ./build/
-  domain: rasmusdyhr.surge.sh
+  domain: rasmusdyhr.me
   on: master
   skip_cleanup: true
