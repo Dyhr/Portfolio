@@ -22,7 +22,6 @@ class Project extends Component {
     var req = new XMLHttpRequest();
     req.open('GET', './data/projects/'+this.props.name+'.yml');
     req.onload = function(e) {
-      console.log(req.responseText);
       elem.setState({...yaml.safeLoad(req.responseText)});
     };
     req.send();
@@ -72,7 +71,7 @@ class Project extends Component {
 
   style() {
     return {
-      "backgroundImage":"linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)),url("+this.state.imageUrl+")"
+      "backgroundImage":"linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.75)),url("+this.state.imageUrl+")"
     };
   }
 
@@ -96,7 +95,7 @@ class Project extends Component {
   }
 
   content() {
-    if(!this.state.desc)
+    if(!this.state.desc && !this.state.short)
       return null;
     if(!this.state.open)
       return <Markdown className="Project-description" source={this.state.short} />;
