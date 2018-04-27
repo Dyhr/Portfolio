@@ -1,33 +1,35 @@
 ---
 
 projects:
-  - [full, PLANET-RISE]
-  - [full, TRACKMAN]
-  - [full, SPACESHIP-IN-SPACE]
-  - [full, SHADOW-SOUNDS]
-  - [full, OVERBREWED]
-  - [full, T-REX]
-  - [half, KNIGHTS]
-  - [half, THE-NET]
-  - [half, SNEAKY-BASTARDS]
-  - [half, IN-BATTLE]
-  - [half, THE-EVERYDAY-MORNING-ROUTINE-OF-AN-ORDINARY-MAN]
-  - [half, EMAIL-CORRESPONDANCE]
-  - [group, "OLDER LESS INTERESTING PROJECTS"]
-  - [full, NEAT-MAN]
-  - [third, RAP]
-  - [third, WATCH-OUT-FOR-PIRATES]
-  - [third, PLANETARIUM]
-  - [half, ORBS]
-  - [half, SQUARE-DEFENSE]
-  - [quater, EVOROID]
-  - [quater, VILLAIN-INC]
-  - [quater, CIRCULAR-PONG]
-  - [quater, BOX-OF-THE-HILL]
-  - [half, ESCAPE-BOT-1]
-  - [half, ESCAPE-BOT-2]
-  #- AN-AUDIBLE-DIMENSION
-  #- DYNAMIC-PLAYGROUND
-  #- BASEMENT-OF-THE-SPIRITS
-  #- NON-DETERMINISTIC-CHESS
-  #- MEAN-FOOTBALL
+- [full, TRACKMAN]
+- [full, PLANET-RISE]
+- [full, SPACESHIP-IN-SPACE]
+- [full, SHADOW-SOUNDS]
+- [full, OVERBREWED]
+- [group, "GAME JAM GAMES"]
+- [full, T-REX]
+- [half, KNIGHTS]
+- [half, THE-NET]
+- [half, SNEAKY-BASTARDS]
+- [half, IN-BATTLE]
+- [half, THE-EVERYDAY-MORNING-ROUTINE-OF-AN-ORDINARY-MAN]
+- [half, EMAIL-CORRESPONDANCE]
+- [group, "OLDER LESS INTERESTING PROJECTS"]
+- [full, NEAT-MAN]
+- [third, RAP]
+- [third, WATCH-OUT-FOR-PIRATES]
+- [third, PLANETARIUM]
+- [group, "MY OLDEST PROJECTS FROM THE FLASH DAYS"]
+- [half, ORBS]
+- [half, SQUARE-DEFENSE]
+- [quater, EVOROID]
+- [quater, VILLAIN-INC]
+- [quater, CIRCULAR-PONG]
+- [quater, BOX-OF-THE-HILL]
+- [half, ESCAPE-BOT-1]
+- [half, ESCAPE-BOT-2]
+#- AN-AUDIBLE-DIMENSION
+#- DYNAMIC-PLAYGROUND
+#- BASEMENT-OF-THE-SPIRITS
+#- NON-DETERMINISTIC-CHESS
+#- MEAN-FOOTBALL
