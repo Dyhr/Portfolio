@@ -47,7 +47,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Rasmus Dyhr Larsen</h1>
         </header>
-        {this.groups()}
+        <h1>Under maintenance...</h1>
         <footer className="App-footer">
           <p>Copyright {(new Date()).getFullYear()} © Rasmus Dyhr Larsen</p>
         </footer>
