@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Group from './Group.js';
+import Group from './projects/Group.js';
 
 class App extends Component {
   constructor(props) {
