@@ -7,7 +7,7 @@
     "react-dom": "^16.0.0",
     "react-markdown": "^2.5.0",
     "react-scripts": "1.0.14",
-    "js-yaml": "3.10.0"
+    "js-yaml": "3.13.1"
   },
   "scripts": {
     "start": "react-scripts start",
